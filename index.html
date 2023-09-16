@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShowBoy Motors</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/63604f5ba6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <h1>ShowboyMotors</h1>
+      <span class="navlinks">
+        <i class="fa-solid fa-xmark" onclick="handleCloseSideBar()"></i>
+        <ul>
+          <li>
+            <a class="Drop-down-text" onclick="handleShowDropDown()" href="#"
+              >New</a
+            >
+            <!-- <ul class="sub-text">
+              <li><a href="#">Store amount</a></li>
+              <li><a href="#">Store amount</a></li>
+              <li><a href="#">Store amount</a></li>
+              <li><a href="#">Store amount</a></li>
+            </ul> -->
+          </li>
+          <li><a href="#">Used</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="#">Sell Your Car</a></li>
+          <button>Sign Up</button>
+        </ul>
+      </span>
+      <input type="search" id="search" placeholder="search" />
+      <i class="fa-solid fa-bars open-button" onclick="handleShowSideBar()"></i>
+    </nav>
+    <header>
+      <div class="header-content">
+        <h1>Find the Car You Want, Your Way</h1>
+        <h3>Then, build your deal to fit your needs.</h3>
+        <input class="search-me" type="search" placeholder="Search" />
+        <div>
+          <a class="shop" href="#">Shop New</a>
+          <a class="shop" href="#">Shop Used</a>
+        </div>
+        <a class="sell" href="#">Sell Your Car</a>
+      </div>
+    </header>
+
+    <article class="section-1">
+      <h2 class="section-1-header">Research</h2>
+      <div class="section-1-sub">
+        <div class="section-1-Research-and-compare">
+          <h2>Research. Compare. Find What's Right for You.</h2>
+          <p>
+            Use our extensive database to research and compare trims, photos,
+            and reviews for every make and model, so you can find the car that
+            fits your life.
+          </p>
+          <select name="make" id="make">
+            <option value="Make">Make</option>
+            <option value="Make">Make</option>
+            <option value="Make">Make</option>
+            <option value="Make">Make</option>
+            <option value="Make">Make</option>
+            <option value="Make">Make</option>
+            <option value="Make">Make</option>
+            <option value="Make">Make</option>
+            <option value="Make">Make</option>
+          </select>
+          <select name="model" id="model">
+            <option value="Model">Model</option>
+            <option value="Model">Model</option>
+            <option value="Model">Model</option>
+            <option value="Model">Model</option>
+            <option value="Model">Model</option>
+            <option value="Model">Model</option>
+            <option value="Model">Model</option>
+            <option value="Model">Model</option>
+            <option value="Model">Model</option>
+            <option value="Model">Model</option>
+            <option value="Model">Model</option>
+          </select>
+          <a href="#">Go</a>
+        </div>
+        <div class="section-1-car-image">
+          <img src="images/OIP (1).jpg" alt="" />
+          <img src="images//truck.jpg" alt="" />
+          <img
+            src="images/Platinum White Pearl-WX-224,221,212-640-en_US.webp"
+            alt=""
+          />
+        </div>
+      </div>
+    </article>
+
+    <article class="section-2">
+      <h2>Your Guide to Top Vehicles</h2>
+      <div class="section-2-sub">
+        <div class="first-sub-div">
+          <img
+            src="images/fe0c1b76668bbbde123aeade4a14672364bd8e94-2000.jpg"
+            alt=""
+          />
+        </div>
+        <div class="first-sub-div">
+          <img src="images//suvs.jpg" alt="" />
+        </div>
+        <div class="first-sub-div">
+          <img src="images///OIP.jpg" alt="" />
+        </div>
+        <div class="first-sub-div">
+          <img
+            src="images/fe0c1b76668bbbde123aeade4a14672364bd8e94-2000.jpg"
+            alt=""
+          />
+        </div>
+        <div class="first-sub-div">
+          <img
+            src="images/Tesla-partners-with-Panasonic-to-build-Gigafactory.jpg"
+            alt=""
+          />
+        </div>
+        <div class="first-sub-div">
+          <img
+            src="images/2880-1800-crop-rolls-royce-phantom-viii-c746526102019131816_1.jpg"
+            alt=""
+          />
+        </div>
+        <div class="first-sub-div">
+          <img src="images/mymoto.jpg" alt="" />
+        </div>
+        <div class="first-sub-div">
+          <img src="images/mycar.jpg" alt="" />
+        </div>
+        <div class="first-sub-div">
+          <img
+            src="images/main-qimg-fe213f416419e82f779edff446255a71.webp"
+            alt=""
+          />
+        </div>
+      </div>
+    </article>
+
+    <article class="section-3">
+      <h2>Featured Reviews</h2>
+      <p class="section-3-sub-text">Our experts road-test selected models.</p>
+      <div class="section-3-main-sub">
+        <div class="section-3-sub">
+          <div class="sub-reviews">
+            <img src="images//2023-Volvo-S60.jpg" alt="" />
+            <div class="sub-reviews-text">
+              <h4>2023 Volvo XC60 Recharge</h4>
+              <p>
+                The Volvo XC60 Recharge is a compact luxury SUV with great
+                appeal.
+              </p>
+              <div class="feedback">
+                <img src="images/Ellipse 22.png" alt="" />
+                <p>Review by Warren Clarke</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-3-sub">
+          <div class="sub-reviews">
+            <img src="images///2023-Volvo-XC60_Recharge.jpg" alt="" />
+            <div class="sub-reviews-text">
+              <h4>2023 Volvo XC60 Recharge</h4>
+              <p>
+                The Volvo XC60 Recharge is a compact luxury SUV with great
+                appeal.
+              </p>
+              <div class="feedback">
+                <img src="images/Ellipse 22.png" alt="" />
+                <p>Review by Warren Clarke</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-3-sub">
+          <div class="sub-reviews">
+            <img src="images///2023-Volvo-V60_Recharge.jpg" alt="" />
+            <div class="sub-reviews-text">
+              <h4>2023 Volvo XC60 Recharge</h4>
+              <p>
+                The Volvo XC60 Recharge is a compact luxury SUV with great
+                appeal.
+              </p>
+              <div class="feedback">
+                <img src="images/Ellipse 22.png" alt="" />
+                <p>Review by Warren Clarke</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-3-sub">
+          <div class="sub-reviews">
+            <img src="images///2023-Volvo-V60_Cross_Country.jpg" alt="" />
+            <div class="sub-reviews-text">
+              <h4>2023 Volvo XC60 Recharge</h4>
+              <p>
+                The Volvo XC60 Recharge is a compact luxury SUV with great
+                appeal.
+              </p>
+              <div class="feedback">
+                <img src="images/Ellipse 22.png" alt="" />
+                <p>Review by Warren Clarke</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- <article class="section-4">
+      <h2>Control Your Car-Buying Experience</h2>
+      <p>
+        At Show Boy, you’re in charge of the process from start to finish.
+        Here’s how.
+      </p>
+      <div class="section-4-sub">
+        <main>
+          <p class="section-4-sub-text">Build Your Deal With Confidence</p>
+          <div class="main-div">
+            <div>
+              <p>
+                Get a price offer from a dealer online, then customize your deal
+                to fit your needs.
+              </p>
+              <button>Shop New Cars</button>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div class="section-4-sub">
+        <main>
+          <p class="section-4-sub-text">
+            Choose From Close to 670,000 Used Cars
+          </p>
+          <div class="main-div">
+            <div>
+              <p>
+                Browse our extensive selection of pre-owned vehicles, and use
+                our price ratings to know a great deal when you see one.
+              </p>
+              <button>Shop Used Cars</button>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div class="section-4-sub">
+        <main>
+          <p class="section-4-sub-text">
+            Get a Trade-in Offer You Can Use Today
+          </p>
+          <div class="main-div">
+            <div>
+              <p>
+                Value your car, get a cash offer in minutes, then cash out or
+                trade in.
+              </p>
+              <button>Get a Value on Your Vehicle</button>
+            </div>
+          </div>
+        </main>
+      </div>
+    </article> -->
+    <article class="section-5">
+      <h2>All The Information You Need</h2>
+      <p>
+        On our blog, you’ll discover in-depth resources and guidance that’ll
+        help you navigate every step of your car buying process.
+      </p>
+      <button>Visit Blog</button>
+    </article>
+
+    <article class="section-6">
+      <section>
+        <h3>Popular Used Cars</h3>
+        <a href="#">Used Dodge Challenger</a>
+        <a href="#">Used Ford Edge</a>
+        <a href="#">Used Ford Escape</a>
+        <a href="#">Used Ford Explorer</a>
+        <a href="#">Used Ford F-150</a>
+      </section>
+      <section>
+        <h3>Popular Used Cars</h3>
+        <a href="#">Used Dodge Challenger</a>
+        <a href="#">Used Ford Edge</a>
+        <a href="#">Used Ford Escape</a>
+        <a href="#">Used Ford Explorer</a>
+        <a href="#">Used Ford F-150</a>
+      </section>
+      <section>
+        <h3>Popular Used Cars</h3>
+        <a href="#">Used Dodge Challenger</a>
+        <a href="#">Used Ford Edge</a>
+        <a href="#">Used Ford Escape</a>
+        <a href="#">Used Ford Explorer</a>
+        <a href="#">Used Ford F-150</a>
+      </section>
+      <section>
+        <h3>Popular Used Cars</h3>
+        <a href="#">Used Dodge Challenger</a>
+        <a href="#">Used Ford Edge</a>
+        <a href="#">Used Ford Escape</a>
+        <a href="#">Used Ford Explorer</a>
+        <a href="#">Used Ford F-150</a>
+      </section>
+    </article>
+
+    <footer>
+      <section>
+        <h3>Products</h3>
+        <a href="#">New</a>
+        <a href="#">Used</a>
+        <a href="#">Sell Your Car</a>
+        <a href="#">Ev</a>
+        <a href="#">Military</a>
+        <a href="#">Buy Online</a>
+        <a href="#">Site Map</a>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </section>
+      <section>
+        <h3>Resources</h3>
+        <a href="#">Blog</a>
+        <a href="#">FAQs</a>
+        <a href="#">Contact Us</a>
+      </section>
+      <section>
+        <h3>Work With Show Boy</h3>
+        <a href="#">Dealers</a>
+        <a href="#">Partners</a>
+      </section>
+      <section>
+        <h3>About</h3>
+        <a href="#">ShowBoy.inc.</a>
+        <a href="#">Team</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+        <a href="#">Developers</a>
+        <a href="#">Investors</a>
+      </section>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
